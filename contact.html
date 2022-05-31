@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group Members</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    img {
+      border-radius: 30%;
+    }
+
+    body {
+      background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+        rgba(4, 9, 30, 0.7)),
+        url("");
+      background-color: rgb(48, 127, 180);
+    }
+
+    .container {
+      font-style: italic;
+    }
+
+    #firstMember {
+      float: left;
+      width: 32%;
+      height: 280px;
+    }
+
+    #secondMember {
+      float: left;
+      width: 33%;
+      height: 280px;
+    }
+
+    #ThirdMember {
+      float: right;
+      width: 32%;
+      height: 280px;
+    }
+
+    .infoClass {
+      color: #fff;
+      word-wrap: break-word;
+    }
+
+    .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #cc1818;
+      color: white;
+    }
+
+    @media only screen and (max-width: 800px) {
+
+      /* For tablets: */
+      .container {
+        width: 80%;
+        padding: 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+
+      /* For mobile phones: */
+      .container {
+        width: 100%;
+      }
+
+      #firstMember, #secondMember, #ThirdMember {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="firstMember">
+      <div class="profilePic">
+        <img src="images/1645584442161.jpg" height="150px" width="150px" />
+      </div>
+      <div class="memberInfo">
+        <p class="infoClass">
+          Nikita Kar <br />
+          Email: nikita.21ug1048@iiitranchi.ac.in
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/nikitakar20212002" target="_blank" class="fa fa-linkedin">
+          </a>
+          <a href="https://instagram.com/sincerelynik?igshid=YmMyMTA2M" target="_blank" class="fa fa-instagram">
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div id="secondMember">
+      <img src="images/panda.jpeg" height="150px" width="150px" />
+      <p class="infoClass">
+        Tanya Malik <br />
+        Email: tanya.21ug1040@iiitranchi.ac.in
+      </p>
+      <a href="https://www.linkedin.com/in/nikitakar20212002" target="_blank" class="fa fa-linkedin">
+      </a>
+      <a href="https://instagram.com/__tanyamalik?igshid=YmMyMTA2M2Y=" target="_blank" class="fa fa-instagram">
+      </a>
+    </div>
+    <div id="ThirdMember">
+      <img src="images/harshita.jpeg" height="150px" width="150px" />
+      <p class="infoClass">
+        Harshita Gupta <br />
+        Email: harshita.21ug1034@iiitranchi.ac.in
+      </p>
+      <a href="https://www.linkedin.com/in/harshita-gupta-065a38238/" target="_blank" class="fa fa-linkedin">
+      </a>
+      <a href="https://instagram.com/simplyharshita_?igshid=YmMyMTA2M2Y=" target="_blank" class="fa fa-instagram">
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
